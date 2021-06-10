@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="DB-211.7442.38">
-    <data-source name="sdm" uuid="ab7125ff-86d2-4c29-b141-d3a3c5ef0460">
+    <data-source name="@localhost" uuid="1b138843-0674-419f-b24d-6e408868054f">
       <database-info product="MySQL" version="5.5.5-10.4.19-MariaDB" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.21 (Revision: 33f65445a1bcc544eb0120491926484da168f199)" dbms="MARIADB" exact-version="10.4.19" exact-driver-version="8.0">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
@@ -11,7 +11,10 @@
       <user-name>root</user-name>
       <schema-mapping>
         <introspection-scope>
-          <node kind="schema" qname="sdm" />
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="sdm" />
+          </node>
         </introspection-scope>
       </schema-mapping>
     </data-source>
